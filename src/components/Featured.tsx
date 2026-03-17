@@ -9,36 +9,35 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Всё для тебя и твоего питомца</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Расскажи о своей собаке</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Создай профиль своей собаки, общайся с другими владельцами в чате и поднимайся в рейтинге — 
-          стань лучшим собачником своего города.
+          Размести анкету питомца — и соседние собачники из твоего района уже смогут познакомиться с тобой.
         </p>
         <div className="flex flex-col gap-4 mb-8">
           <div className="flex items-start gap-3">
-            <span className="text-2xl">💬</span>
+            <span className="text-2xl">🏷️</span>
             <div>
-              <p className="font-semibold text-neutral-900">Живой чат</p>
-              <p className="text-neutral-500 text-sm">Общайся с соседями и единомышленниками по породам, прогулкам и воспитанию</p>
+              <p className="font-semibold text-neutral-900">Кличка и порода</p>
+              <p className="text-neutral-500 text-sm">Укажи имя и породу — пусть все знают, кто гуляет в твоём дворе</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-2xl">🐶</span>
+            <span className="text-2xl">🎂</span>
             <div>
-              <p className="font-semibold text-neutral-900">Профили питомцев</p>
-              <p className="text-neutral-500 text-sm">Фото, порода, возраст, достижения — всё в одном красивом профиле</p>
+              <p className="font-semibold text-neutral-900">Возраст</p>
+              <p className="text-neutral-500 text-sm">Щенок или взрослый пёс — найди компанию по возрасту для совместных прогулок</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-2xl">🏆</span>
+            <span className="text-2xl">📍</span>
             <div>
-              <p className="font-semibold text-neutral-900">Рейтинг владельцев</p>
-              <p className="text-neutral-500 text-sm">Зарабатывай очки за активность и соревнуйся за титул лучшего собачника</p>
+              <p className="font-semibold text-neutral-900">Район Екатеринбурга</p>
+              <p className="text-neutral-500 text-sm">ВИЗ, Уралмаш, Ботаника, Центр — общайся с собачниками своего района в чате</p>
             </div>
           </div>
         </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Узнать больше
+          Добавить свою собаку
         </button>
       </div>
     </div>
