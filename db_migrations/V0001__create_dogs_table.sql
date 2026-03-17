@@ -1,0 +1,10 @@
+CREATE TABLE dogs (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  breed VARCHAR(100) NOT NULL,
+  age VARCHAR(50) NOT NULL,
+  district VARCHAR(100) NOT NULL,
+  owner_name VARCHAR(100) NOT NULL,
+  about TEXT DEFAULT '',
+  created_at TIMESTAMP DEFAULT NOW()
+);

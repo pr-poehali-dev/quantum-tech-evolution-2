@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "GET all dogs",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "POST new dog",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Барон",
+        "breed": "Лабрадор",
+        "age": "2 года",
+        "district": "Центр",
+        "owner_name": "Иван",
+        "about": "Дружелюбный пёс"
+      },
+      "expectedStatus": 201
+    }
+  ]
+}

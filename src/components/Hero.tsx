@@ -19,8 +19,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/fb10dc73-fb41-4f59-a8db-841262551e0c/files/27970d87-3bb1-4c0c-8cf4-fb8f7fac5aa2.jpg"
-          alt="Собака на набережной Екатеринбурга"
+          src="https://cdn.poehali.dev/projects/fb10dc73-fb41-4f59-a8db-841262551e0c/files/e09e6837-a306-426a-8518-57fc1e2e34cb.jpg"
+          alt="Собаки на Плотинке в Екатеринбурге"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40" />
@@ -33,9 +33,22 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Чат собачников Екатеринбурга — расскажи о своей собаке, найди соседей по району и погуляй вместе
         </p>
-        <button className="mt-8 bg-white text-black px-8 py-3 uppercase text-sm tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
-          Добавить свою собаку
-        </button>
+        <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+          <a
+            href="#add-dog"
+            className="bg-white text-black px-8 py-3 uppercase text-sm tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer"
+          >
+            Добавить свою собаку
+          </a>
+          <a
+            href="https://t.me/+8L340jCF1h04NjMy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white text-white px-8 py-3 uppercase text-sm tracking-wide font-medium hover:bg-white hover:text-black transition-colors duration-300 cursor-pointer"
+          >
+            Перейти в чат
+          </a>
+        </div>
       </div>
     </div>
   );

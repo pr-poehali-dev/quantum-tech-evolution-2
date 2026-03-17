@@ -20,6 +20,14 @@ export default function Header({ className }: HeaderProps) {
           >
             Добавить собаку
           </a>
+          <a
+            href="https://t.me/+8L340jCF1h04NjMy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+          >
+            Чат
+          </a>
         </nav>
       </div>
     </header>
